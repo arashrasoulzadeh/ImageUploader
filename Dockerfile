@@ -4,6 +4,7 @@ MAINTAINER Maintainer
 
 ENV GIN_MODE=release
 ENV PORT=8080
+RUN apk add pkgconfig
 
 WORKDIR /go/src/github.com/ReviveDesignLab/upload_go
 
