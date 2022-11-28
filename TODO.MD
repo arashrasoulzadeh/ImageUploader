@@ -1,0 +1,4 @@
+- TODO
+[ ] exif
+[ ] convert
+[ ] resize
