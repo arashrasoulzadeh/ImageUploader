@@ -4,9 +4,9 @@ MAINTAINER Maintainer
 
 ENV GIN_MODE=release
 ENV PORT=8080
+RUN apk add cmake make gcc libc-dev g++ openblas-dev libx11-dev
 RUN apk add pkgconfig
 RUN apk add vips
-RUN apk add gcc g++ gfortran git patch wget pkg-config liblapack-dev libmetis-dev
 
 WORKDIR /go/src/github.com/ReviveDesignLab/upload_go
 
