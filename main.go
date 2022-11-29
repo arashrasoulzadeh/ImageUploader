@@ -85,7 +85,7 @@ func main() {
 				w, h = createSize(w, h, 640)
 			}
 			if s == "l" {
-				w, h = createSize(w, h, 8080)
+				w, h = createSize(w, h, 860)
 			}
 			if s == "o" {
 
